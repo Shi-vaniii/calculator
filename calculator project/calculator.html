@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="name">CALCULATOR</div>
+    <div class="main">
+        <div class="display">
+            <input id="dsp" type="text" placeholder="0">
+        </div>
+        <div class="inputbar">
+            <div class="row">
+                <input class="special" type="button" value="*" title="mul" onclick="getVal()">
+                <input class="special" type="button" value="/" title="divide" onclick="getVal()">
+                <input class="special" type="button" value="-" title="minus" onclick="getVal()">
+                <input class="special" type="button" value="+" title="plus" onclick="getVal()">
+            </div>
+            <div class="row">
+                <input type="button" value="7" title="7" onclick="getVal()">
+                <input type="button" value="8" title="8" onclick="getVal()">
+                <input type="button" value="9" title="9" onclick="getVal()">
+                <input class="special" type="button" value="DEL" title="DEL" onclick="getVal()">
+            </div>
+            <div class="row">
+                <input type="button" value="4" title="4" onclick="getVal()">
+                <input type="button" value="5" title="5" onclick="getVal()">
+                <input type="button" value="6" title="6" onclick="getVal()">
+                <input class="special" type="button" value="AC" title="AC" onclick="getVal()">
+            </div>
+            <div class="row">  
+                <input type="button" value="1" title="1" onclick="getVal()">
+                <input type="button" value="2" title="2" onclick="getVal()">
+                <input type="button" value="3" title="3" onclick="getVal()">
+                <input class="special" type="button" value="MS" title="MS" onclick="getVal()">
+            </div>
+            <div class="row">
+                <input class="special" type="button" value="MC" title="MC" onclick="getVal()">
+                <input type="button" value="0" title="0" onclick="getVal()">
+                <input class="special" type="button" value="." title="." onclick="getVal()">
+                <input id="eql-btn" class="special" type="button" value="=" title="=" onclick="getVal()">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
